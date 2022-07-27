@@ -1,0 +1,11 @@
+nav{
+    margin-top: 0.5rem;
+}
+#activeState{
+    width: 1rem;
+    margin-right: 0.3rem;
+    border: none;
+}
+button.active{
+    background-color: rgb(216, 25, 181);
+}

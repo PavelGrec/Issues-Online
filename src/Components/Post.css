@@ -1,0 +1,55 @@
+.post{
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: var(--bg4);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.post:hover{
+    background-color: var(--bg1);
+}
+.test1{
+    color: gray;
+}
+.messageIcon{
+    height: 2.4rem;
+    width: 2.4rem;
+    fill: var(--bg3);
+    transition: 0.3s;
+}
+.messageIcon.active{
+    fill: var(--bg2);
+}
+.pr{
+    padding-right: 1rem;
+  }
+.messageNumber{
+    position: absolute;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.copyIcon{
+    position: absolute;
+    fill: var(--bg2);
+    left: -1rem;
+    top: 0.2rem;
+    opacity: 1;
+    transition: 0.3s;
+}
+.hide{
+    opacity: 0;
+}
+.tag{
+    background-color: rgb(200, 200, 243);
+    padding: 0.2rem 0.5rem;
+    border-radius: 15px;
+}
+.tag.white{
+    color:white
+}

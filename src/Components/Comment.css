@@ -1,0 +1,17 @@
+.Comment{
+    width: calc(100% - 30px);
+    background-color: var(--bg4)
+}
+.commentText{
+    padding: 1rem;
+}
+.commentPhoto{
+    width: 1.3rem;
+    height: 1.3rem;
+    background: aliceblue;
+    border-radius: 50%;
+    margin-right: 0.2rem;
+}
+.commentName{
+    font-size: 1.1rem;
+}

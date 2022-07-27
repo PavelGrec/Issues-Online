@@ -1,0 +1,26 @@
+.select{
+    padding-left:1rem;
+    padding-top: 0.5rem;
+}
+label{
+    color:rgba(255, 255, 255, 0.839)
+}
+button{
+    background-color: var(--bg4);
+    border: none;
+    padding: 0.2rem 0.4rem;
+    margin-left: 1rem;
+    border-radius: 15px;
+    color: var(--c3);
+    transition: 0.3s;
+    font-weight: 700;
+}
+button:hover{
+    background-color: var(--bg1);
+    color: black;
+}
+button.active{
+    background-color: var(--bg1);
+    color: var(--c2);
+    font-weight: 700;
+}
